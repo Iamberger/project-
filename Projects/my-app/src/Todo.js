@@ -30,7 +30,7 @@ function Todo() {
       </form>
       <ul>
         {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
+          <li key={index}>{todo.text}</li>
         ))}
       </ul>
     </div>
