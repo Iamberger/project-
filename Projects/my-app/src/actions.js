@@ -1,6 +1,6 @@
 // actions.js
-export const addTodo = (todo) => ({
+export const addTodo = (text) => ({
     type: 'ADD_TODO',
-    payload: todo,
+    payload: text,
   });
   
